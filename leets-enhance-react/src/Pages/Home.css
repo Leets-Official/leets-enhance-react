@@ -1,0 +1,172 @@
+.top {
+    display: flex;
+}
+
+.button{
+    display: inline;
+    align-items: flex-start;
+
+}
+
+.honor {
+    align-items: center;
+    margin-right: 50px;
+}
+
+.silver {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.silver img {
+    width: 150px;
+}
+
+.silver .secondKnife {
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.silver .secondKnifeName {
+    display: flex;
+    margin-left: 55px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.gold {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.gold img {
+    width: 150px;
+}
+
+.gold .hyewon {
+    font-size: 20px;
+    margin-bottom: 5px
+}
+
+.gold .hyewonName {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.bronze {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.bronze img {
+    width: 150px;
+}
+
+.bronze .myFirstKnife{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.bronze .myFirstKnifeName{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.Three {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 5px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-left: 240px;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+.all img{
+    width: 150px;
+}
+
+.load {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.loadName {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.balloon{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.balloonName{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.tree{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.treeName {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.minho {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.minhoName{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.fiveKnife {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.fiveKnifeName{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.silverKnife{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.silverKnifeName{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.mefirst{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.mefirstName{
+    font-size: 15px;
+    margin-top: 5px;
+}

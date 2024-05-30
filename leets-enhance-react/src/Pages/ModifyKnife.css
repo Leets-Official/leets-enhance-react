@@ -1,0 +1,120 @@
+.modifyKnife{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .manualItem{
+  display: flex;
+  flex-direction: column;
+} */
+
+.manual img{
+  width: 150px;
+  flex-direction: column;
+}
+
+.manual {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 720px;
+  margin-top: 10px;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.manualModal{
+  width: 1010px;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: 400px;
+  background-color: aliceblue;
+  border-radius: 20px 20px;
+  font-size: 25px;
+}
+
+.manualModal .instruction{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card img{
+  width: 150px;
+}
+
+.info{
+  display: inline;
+  gap: 50px;
+  margin-right: 700px;
+  font-size: 30px;
+}
+
+.knife img {
+  width: 300px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-right: 720px;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.menu-item img{
+  width: 150px;
+  flex-direction: column;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.enhanceButton {
+  width: 150px;
+  height: 100px;
+  margin-top: 190px;
+  background-color: white;
+  border-radius: 20px 20px;
+  font-size: 15px;
+}
+
+.modal-enhance{
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 350px;
+  margin-left: 700px;
+  background-color: aliceblue;
+  border-radius: 20px 20px;
+  font-size: 25px;
+}
+
+.realQuestion{
+  text-align: center;
+}
+
+.modal-enhance button {
+  width: 90px;
+  height: 60px;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 10px 10px;
+}
