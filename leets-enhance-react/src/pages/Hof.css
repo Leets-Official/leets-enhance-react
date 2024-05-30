@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hof {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.hof > h2 {
+    font-size: 50px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center; /* 가운데 정렬로 변경 */
+    width: 100%; 
+}
+
+.loginBtn {
+    order: 1; 
+}
+
+.enforceBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.enforceBtn img {
+    margin-bottom: 10px;
+    width: 40px; 
+}
+
+.hof .medal-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+.hof .medal-wrapper .silver, .bronze {
+    margin-top: 100px;
+}
+
+.hof .others {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    gap: 70px;
+}

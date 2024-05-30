@@ -1,0 +1,22 @@
+.sword-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.sword-form .level-box{
+    width: 110px;
+    height: 12px;
+    background-color: #251C91;
+}
+.sword-wrapper {
+    display: flex;
+    align-items: center; 
+}
+
+.sword-wrapper > div {
+    margin-right: 10px; 
+}
