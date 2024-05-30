@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.sword-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px; 
+}
+
+.sword-input h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.sword-input img {
+    width: 100px;
+    height: auto;
+    margin: 50px auto; 
+}
+
+.sword-input input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+}
+
+.sword-input button {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+

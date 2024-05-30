@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.enforce {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 290px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card img, .info img, .hof img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.sword-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold; 
+    justify-content: center;
+}
+
+.sword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.sword img {
+    width: 250px;
+}
+
+.hof {
+    cursor: pointer;
+}
+
+.enforceBtn {
+    width: 100px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,40 @@
+.Register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Register .RegisterForm{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.Register input{
+    flex:1;
+    padding:15px;
+    border: 1px solid rgb(220,220,220 );
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Register label{
+    margin-top: 10px;
+}
+.Register button{
+    cursor:pointer;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: rgb(37,147,255);
+    color: white;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
