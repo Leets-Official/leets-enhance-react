@@ -1,0 +1,41 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.Login input {
+    background-color: gainsboro;
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 40px 40px;
+    &::placeholder {
+        color: black;
+        text-align: center;
+      }
+}
+
+.Login button {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 40px 40px;
+    margin-top: 20px;
+}
+
+.Login .two {
+    display: flex;
+    gap: 40px;
+}
+
+.Login .error {
+    color: red;
+    font-size: 15px;
+}

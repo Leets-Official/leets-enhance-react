@@ -1,0 +1,44 @@
+.MakeKnife {
+    display: flex;
+    flex-direction: column;
+}
+
+.knife{
+    width: 300px;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.write{
+    margin-top: 100px;
+}
+
+.example{
+    width: 250px;
+    height: 50px;
+    margin-left: 820px;
+    border: none;
+    &::placeholder {
+        color: gray;
+        text-align: center;
+        font-size: 25px;
+      }
+    margin-top: 100px;
+}
+
+.graySmallBox{
+    width: 250px;
+    height: 10px;
+    margin-left: 820px;
+    margin-top: 10px;
+}
+
+.buildName {
+    margin-left: 900px;
+    margin-top: 80px;
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px 20px;
+}

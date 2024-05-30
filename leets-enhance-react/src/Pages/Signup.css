@@ -1,0 +1,89 @@
+.Signup {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    margin: 30px;
+    align-items: center;
+}
+
+.remain > input {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 40px 40px;
+    &::placeholder {
+        color: black;
+        text-align: center;
+      }
+}
+
+.remain > button {
+    justify-content: center;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 40px 40px;
+    margin: 20px 200px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.remain {
+    display: flex;
+    flex-direction: column;
+}
+
+.email > input {
+    justify-content: center;
+    display: flex;
+    background-color: gainsboro;
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 40px 40px;
+    &::placeholder {
+        color: black;
+        text-align: center;
+      }
+    flex-direction: column;
+    align-items: center;
+}
+
+.email > button {
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 40px 40px;
+}
+
+.email {
+    display: flex;
+}
+
+.Signup .error {
+    color: red;
+}
+
+.emailError {
+    color: red;
+    display: flex;
+}
